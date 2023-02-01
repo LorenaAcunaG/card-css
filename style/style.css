@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "BebasNeue";
+    font-style: normal;
+    src: url("../assets/font/BebasNeue-Regular.ttf") format('truetype');
+}
+
+body{
+    background: white;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.panel{
+    position: absolute;
+    width: 100%;
+    height: calc(20vh + 170px);
+    background:radial-gradient(circle at 77% 100%, #8FA4A1 0%, #34474E 37%, #171F23 75%);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 5px 25px #2a333a3f;
+    margin-top: 20vh;
+}
+header{
+    background-color: #B03C65;
+    padding: 15px;
+    height: 170px;
+    width: 100%;    
+    border-radius: 10px 10px 0 0;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+}
+
+.header_logo{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    overflow: visible;
+    margin-left: 15px;
+}
+.tenis{
+    width: 335px;
+    object-fit: cover;
+    position: absolute;
+    top: -100px;
+    left: -42px;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.242));
+    transform:rotateZ(-35deg) rotateY(180deg);
+}
+.article_info{
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+
+}
+
+h3{
+    margin: 0;
+    color: #bcbbbb;
+    text-align: center;
+    font-size: 17px;
+}
+
+h1{
+    margin: 5px 0;    
+    text-align: center;
+    font-family: "BebasNeue";
+    font-size: 35px;
+}
+
+p{
+    width: 85%;
+    text-align: center;
+    color: #5f5f5f;
+}
+
+button{
+    color: white;
+    font-size: 12px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #B03C65;
+    margin-top: 10px;
+}
+
